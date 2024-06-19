@@ -1,4 +1,4 @@
-# C/Python Development DevContainer
+# C/CXX/Fortran/Python Development DevContainer
 
 This repository contains a DevContainer configuration for C, Python, and Fortran development. The DevContainer is built using a custom Dockerfile based on Ubuntu 22.04 LTS and includes necessary development tools and environments.
 
@@ -30,7 +30,7 @@ This repository contains a DevContainer configuration for C, Python, and Fortran
 1. **Clone the Repository**:
 
     ```sh
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/jamestjat/cx_fort_py_devcontainer.git
     cd your-repo-name
     ```
 
