@@ -31,7 +31,7 @@ This repository contains a DevContainer configuration for C, Python, and Fortran
 
     ```sh
     git clone https://github.com/jamestjat/cx_fort_py_devcontainer.git
-    cd your-repo-name
+    cd cx_fort_py_devcontainer
     ```
 
 2. **Open in VS Code**:
