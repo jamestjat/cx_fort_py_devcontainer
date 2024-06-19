@@ -1,0 +1,28 @@
+{
+    "name": "C/Python Development",
+    "build": {
+        "context": "..",
+        "dockerfile": "./Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "fortran-lang.linter-gfortran",
+                "ms-python.python",
+                "twxs.cmake",
+                "ms-vscode.cmake-tools"
+            ],
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "zsh",
+                "terminal.integrated.profiles.linux": {
+                    "zsh": {
+                        "path": "/usr/bin/zsh",
+                        "args": ["-l"]  // Start login shell to source .zshrc
+                    }
+                }
+            }
+        }
+    },
+    "remoteUser": "vscode"
+}
